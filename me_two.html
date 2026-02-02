@@ -8,17 +8,35 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
   <style type = "text/css">
+    /*Sets everything contained within the body to Roboto font*/
     body{font-family: 'Roboto', sans-serif;}
+
+    /*Sets the color and font of every h1 and h2, with 30px margins below*/
     h1,h2 {color: #d68e6c; font-size: 30px; margin-bottom: 30px;}
+
+    /*Puts a 2px border around the list and centers the list on the page*/
     ul{border: 2px solid #000000; padding: 20px; width: 100px; margin: 0 auto;}
+
+    /*Puts a black background image behind the food image with 50px padding on every side*/
     #fav_food{background-image: url(blank_black.jpg);
               background-size: cover; background-position: 0 100%;
               height: auto; width: auto; padding: 50px; box-sizing: border-box;}
+    
+    /*Sets the food image and explanatory text adjacent to one another*/
     #fav_food, #content {display: inline-block; vertical-align: top;}
+
+    /*Gives color rules to alternating rows of the table*/
     tr:nth-child(even){background-color: #d89d1d6e;}
     tr:nth-child(odd){background-color: #d68e6c;}
+
+    /*Sets a 15px margin below every element in the form*/
     .field{margin-bottom: 15px;}
+
+    /*Sets the labels of the form to be adjacent to the elements, and right aligns the text*/
     label{width: 100px; display: inline-block; text-align: right;}
+
+    /*Sets the icons at the top right of the page in a fixed position with 100px padding
+      from the top and 35px padding from the right of the page*/
     #icons{position: fixed; top: 0; right: 0; padding-top: 100px; padding-right: 35px; 
            display: inline-block;}
 
@@ -102,7 +120,7 @@
       </tr>
 
       <tr>
-        <td>Farenheight 451</td>
+        <td>Fahrenheit 451</td>
         <td><img src='f451.jpg' width ='150'></td>
         <td>Ray Bradbury</td>
         <td>A dystopian novel set in the future where books are burned and independent thought is dangerous. <br />
